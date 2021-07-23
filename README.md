@@ -19,3 +19,18 @@ miner.start(); admin.sleepBlocks(1); miner.stop();
 web3.txpool.status
 ```
 
+4. 節點資訊
+```
+admin.nodeInfo.enode
+```
+
+5. 連接節點指令
+```
+admin.addPeer("enode://...")
+```
+
+6. 查看連結的結點數量
+```
+web3.net.peerCount
+```
+
