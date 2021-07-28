@@ -29,7 +29,7 @@ admin.nodeInfo.enode
 admin.addPeer("enode://...")
 ```
 
-6. 查看連結的結點數量
+6. 查看連結的節點數量
 ```
 web3.net.peerCount
 ```
